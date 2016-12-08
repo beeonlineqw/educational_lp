@@ -1,0 +1,50 @@
+.header {
+  background-image: url('../img/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 0;
+  color: #fff;
+  &__container {
+    @include container;
+  }
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'RobotoBold', $helvetica;
+    font-size: 40px;
+  }
+}
+.header-phones {
+  &__city {
+    font-family: 'RobotoRegular', $helvetica;
+    font-size: 16px;
+    &--active {
+      text-decoration: underline;
+    }
+  }
+  &__number {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    &:hover,
+    &:active,
+    &:focus,
+    &:visited {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}
+.header-promotion-tabs {
+  &__tab-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}

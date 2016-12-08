@@ -1,4 +1,13 @@
 //$header-background-color: #333;
 
+@mixin container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
 @import "../../bower_components/normalize-css/normalize.css";
-@import "style"; 
+@import "../../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
+@import "fonts";
+@import "style";
+@import "header";
